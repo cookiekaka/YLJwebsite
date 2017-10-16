@@ -1,0 +1,42 @@
+/* Nav */
+.nav a,.nav h4, .nav p{
+	color: #777777;
+}
+.nav{                             
+	border-color: #FFFFFF;              /*Main Color*/
+}
+.nav label{                       
+	background-color: #2A82C2;           /*Main Color*/
+	color:#FFFFFF;
+}
+.nav label:hover{                 
+	background: #A3C7DA;                /*Light Gray*/
+	color:#2D577D;
+}
+.nav input:checked + label,
+.nav input:checked + label:hover{ 
+	background: #A0CDDE                /*Dark Gray*/
+	color:#FFFFFF;
+}
+
+/* Content */
+.content{
+	background: #ffffff; /* Old browsers */
+	background: #FFF; /* W3C */
+
+
+
+
+
+
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#e5e5e5',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+	background-color: #FFF;
+	background-position: center;
+}
+.content h6{                           /*Main Color*/
+	color:#333333;
+	background-color:rgba(0, 191, 255, .5);
+}
+.content p{                           
+	border-color: #00BFFF;             /*Main Color*/
+}

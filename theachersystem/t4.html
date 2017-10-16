@@ -1,0 +1,435 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>优乐嘉教育-教师后台-成绩录入</title>
+<style type="text/css">
+body {
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+}
+#title {
+	height: 54px;
+	width: 952px;
+	margin-top: 10px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+}
+#a {
+	height: 117px;
+	width: 952px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+	background-color: #3467A9;
+	color: #000;
+}
+#pic1 {
+	height: 107px;
+	width: 109px;
+	margin: 5px;
+	float: left;
+}
+#b {
+	height: 1203px;
+	width: 942px;
+	margin-right: auto;
+	margin-bottom: auto;
+	margin-left: auto;
+	float: inherit;
+	background-color: #3467A9;
+	padding-top: 10px;
+	padding-right: 5px;
+	padding-left: 5px;
+	font-family: "微软雅黑";
+	color: #FFF;
+}
+#c {
+	height: 1158px;
+	width: 900px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 20px;
+	background-color: #FFF;
+	color: #000;
+}
+.text1 {
+	font-family: "微软雅黑";
+	font-size: 15px;
+}
+#d {
+	height: 40px;
+	width: 573px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 30px;
+}
+.button {
+	font-family: "微软雅黑";
+	font-size: 15px;
+	color: #FFF;
+	background-color: #417AC1;
+	height: 30px;
+	width: 80px;
+	font-weight: bold;
+	border: thin solid #3974C4;
+}
+#table1 {
+	height: 900px;
+	width: 880px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: auto;
+	margin-left: auto;
+	text-align: center;
+	font-size: 13px;
+}
+table {
+	text-align: center;
+	border: 1px solid #3467A9;
+}
+#search {
+	height: 45px;
+	width: 243px;
+	margin-right: auto;
+	margin-left: auto;
+	background-image: url(images/search.jpg);
+}
+#insearch {
+	height: 31px;
+	width: 194px;
+	margin-top: 8px;
+	margin-left: -53px;
+	padding: 0px;
+}
+.text2 {
+	font-family: "微软雅黑";
+	font-size: 16px;
+	color: #000;
+}
+#select {
+	height: 600px;
+	width: 800px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+}
+#name {
+	height: 25px;
+	width: 200px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+	text-align: center;
+}
+#Tbl{
+	background-color: #FFF;
+	border-right-width: 3px;
+	border-bottom-width: 3px;
+	border-left-width: 3px;
+	border-top-style: none;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-right-color: #3467A9;
+	border-bottom-color: #3467A9;
+	border-left-color: #3467A9;
+	font-size: 14px;
+	font-family: "微软雅黑";
+	text-align: center;
+	line-height: 53px;
+	}
+#aaa {
+	height: 100%;
+	width: 100%;
+	margin-top: 30px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+}
+#grade {
+	height: 470px;
+	width: 870px;
+	margin-top: 10px;
+	margin-right: auto;
+	margin-left: auto;
+}
+#grade2 {
+	height: 425px;
+	width: 870px;
+	margin-top: auto;
+	margin-right: auto;
+	margin-left: auto;
+}
+.td1{
+	background-color: #3467A9;
+	color: #FFF;
+	}
+#add {
+	height: 43px;
+	width: 870px;
+	margin-top: 15px;
+	margin-right: auto;
+	margin-bottom: 20px;
+	margin-left: auto;
+	padding-top: 10px;
+}
+#students {
+	height: 100px;
+	width: 880px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: auto;
+	margin-left: auto;
+	font-size: 13px;
+}
+#birthday{border:1px solid rgb(212,212,212);}
+#intro{position:absolute;top:-1px;left:50%;margin-left:50px;color:rgb(72,72,72);width:250px;padding:30px 50px;box-shadow:0 1px 3px rgba(0,0,0,0.05), 0 -5px 16px rgba(0,0,0,0.1) inset;}
+#add2 {
+	margin: auto;
+	height: 30px;
+	width: 80px;
+}
+</style>
+</style>
+</head>
+<link rel="shortcut icon" href="../img/zatu/logo.ico" />
+<link rel="stylesheet" href="css/style.css" type="text/css" />
+<body>
+<div id="title"><a href="tmain.html"><img src="images/title.jpg" width="952" height="54" /></a></div>
+<div id="a">
+  <div id="pic1"><a href="t1.html"><img src="images/01.jpg" width="109" height="107" /></a></div>
+  <div id="pic1"><a href="t2.html"><img src="images/02.jpg" width="109" height="107" /></a></div>
+  <div id="pic1"><a href="t3.html"><img src="images/03.jpg" width="109" height="107" /></a></div>
+  <div id="pic1"><img src="images/4.jpg" width="109" height="107" /></div>
+  <div id="pic1"><a href="t5.html"><img src="images/05.jpg" width="109" height="107" /></a></div>
+  <div id="pic1"><a href="t6.html"><img src="images/06.jpg" width="109" height="107" /></a></div>
+  <div id="pic1"><a href="t7.html"><img src="images/07.jpg" width="109" height="107" /></a></div>
+  <div id="pic1"><a href="t8.html"><img src="images/08.jpg" width="109" height="107" /></a></div>
+</div>
+<div id="b">
+    <div id="c">
+    </br>
+    <center>
+    <div class="zySearch" id="zySearch"></div>
+      <ul class="select">
+		<li class="select-list">
+			<dl id="select1">
+				<dt>选择校区：</dt>
+				<dd class="select-all selected"><a href="#">全部</a></dd>
+				<dd><a href="#">绿汀雅镜校区</a></dd>
+				<dd><a href="#">保利华都校区</a></dd>
+			</dl>
+		</li>
+		<li class="select-list">
+			<dl id="select2">
+				<dt>选择课程：</dt>
+				<dd class="select-all selected"><a href="#">全部</a></dd>
+				<dd><a href="#">幼小衔接班</a></dd>
+				<dd><a href="#">教育式托管</a></dd>
+				<dd><a href="#">精品培优班</a></dd>
+				<dd><a href="#">全素质一对一</a></dd>
+			</dl>
+		</li>
+		<li class="select-list">
+			<dl id="select3">
+				<dt>任课老师：</dt>
+				<dd class="select-all selected"><a href="#">全部</a></dd>
+				<dd><a href="#">陈彩霞</a></dd>
+				<dd><a href="#">刘小娟</a></dd>
+				<dd><a href="#">雷晶</a></dd>
+				<dd><a href="#">石玉</a></dd>
+				<dd><a href="#">黄书文</a></dd>  
+			</dl>
+		</li>
+        <li class="select-list">
+			<dl id="select4">
+				<dt>所在学校：</dt>
+				<dd class="select-all selected"><a href="#">全部</a></dd>
+				<dd><a href="#">卓刀泉小学</a></dd>
+				<dd><a href="#">洪山外校</a></dd>
+			</dl>
+		</li>
+        <li class="select-list">
+			<dl id="select5">
+				<dt>所在年级：</dt>
+				<dd class="select-all selected"><a href="#">全部</a></dd>
+                <dd><a href="#">一年级</a></dd>
+				<dd><a href="#">二年级</a></dd>
+				<dd><a href="#">三年级</a></dd>
+				<dd><a href="#">四年级</a></dd>
+				<dd><a href="#">五年级</a></dd>
+				<dd><a href="#">六年级</a></dd>
+                <dd><a href="#">初一</a></dd>
+                <dd><a href="#">初二</a></dd>
+                <dd><a href="#">初三</a></dd>
+                <dd><a href="#">高一</a></dd>
+                <dd><a href="#">高二</a></dd>
+                <dd><a href="#">高三</a></dd>
+			</dl>
+		</li>
+		<li class="select-result">
+			<dl>
+				<dt>已选条件：</dt>
+				<dd class="select-no">暂时没有选择筛选条件</dd>
+			</dl>
+		</li>
+	</ul>
+
+
+
+<script type="text/javascript" src="js/jquery-1.7.2.js"></script>
+<script type="text/javascript" src="js/zySearch.js"></script>
+<script type="text/javascript">
+$("#zySearch").zySearch({
+	"width":"355",
+	"height":"33",
+	"parentClass":"pageTitle",
+	"callback":function(keyword){
+		console.info("搜索的关键字");
+		console.info(keyword);
+	}
+});
+</script>
+
+<script type="text/javascript" src="js/jquery-1.7.2.min.js"></script>
+<script type="text/javascript" src="js/script.js"></script>
+<link rel="stylesheet" type="text/css" href="calendar.css">
+<script type="text/javascript" src="calendar.js"></script>
+	</center>
+    </br>
+    <div id="students">已选学生：
+      <form id="form1" name="form1" method="post" action="">
+          <label>
+            <input type="radio" name="stu" value="1" id="stu_0" />
+            “学生姓名1”</label>
+          <label>
+            <input type="radio" name="stu" value="2" id="stu_1" />
+            “学生姓名2”</label>
+          <label>
+            <input type="radio" name="stu" value="3" id="stu_2" />
+            “学生姓名3”</label>
+          <label>
+            <input type="radio" name="stu" value="4" id="stu_3" />
+            “学生姓名4”</label>
+      </form>
+    </div>
+    <div id="name">“已选学生姓名”成绩表</div>
+    <div id="grade">
+  <table width="100%" border="0" align="center" cellpadding="0" cellspacing="0" class="gtable1">
+    <tr>
+      <td class="td1" width="192" height="42">序号</td>
+      <td class="td1" width="192">考试时间</td>
+      <td class="td1" width="192">学科</td>
+      <td class="td1" width="192">分数</td>
+      <td class="td1" width="192">评价</td>
+    </tr>
+  </table>
+<div id="grade2">
+    <table width="100%" border="0" cellpadding="0" cellspacing="0" id="Tbl">
+      <tr >
+        <td width="187" height="42">1</td>
+        <td width="189">2015-07-31</td>
+        <td width="188">语文</td>
+        <td width="188">100-90</td>
+        <td width="195"><img src="../studentsystem/images/perfect.png" width="10" height="14" /><span class="red"> 优秀</span></td>
+      </tr>
+      <tr>
+        <td height="42">2</td>
+        <td>2015-07-31</td>
+        <td>数学</td>
+        <td>80-89</td>
+        <td><img src="../studentsystem/images/good.png" width="10" height="14" /><span class="blue"> 良好</span></td>
+      </tr>
+      <tr>
+        <td height="42">3</td>
+        <td>2015-07-31</td>
+        <td>英语</td>
+        <td>60-79</td>
+        <td><img src="../studentsystem/images/notbad.png" width="10" height="14" /><span class="green"> 中等</span></td>
+      </tr>
+      <tr>
+        <td height="42">4</td>
+        <td>2015-07-31</td>
+        <td>英语</td>
+        <td>&lt;60</td>
+        <td><img src="../studentsystem/images/bad.png" width="10" height="14" /><span class="grey"> 较差</span></td>
+      </tr>
+      <tr>
+        <td width="187" height="42">5</td>
+        <td width="189">2015-07-31</td>
+        <td width="188">语文</td>
+        <td width="188">100-90</td>
+        <td width="195"><img src="../studentsystem/images/perfect.png" width="10" height="14" /><span class="red"> 优秀</span></td>
+      </tr>
+      <tr>
+        <td height="42">6</td>
+        <td>2015-07-31</td>
+        <td>数学</td>
+        <td>80-89</td>
+        <td><img src="../studentsystem/images/good.png" width="10" height="14" /><span class="blue"> 良好</span></td>
+      </tr>
+      <tr>
+        <td height="42">7</td>
+        <td>2015-07-31</td>
+        <td>英语</td>
+        <td>60-79</td>
+        <td><img src="../studentsystem/images/notbad.png" width="10" height="14" /><span class="green"> 中等</span></td>
+      </tr>
+      <tr>
+        <td height="42">8</td>
+        <td>2015-07-31</td>
+        <td>英语</td>
+        <td>&lt;60</td>
+        <td><img src="../studentsystem/images/bad.png" width="10" height="14" /><span class="grey"> 较差</span></td>
+      </tr>
+    </table>
+</div>
+</div>
+    <div id="add"><table width="100%" height="43" border="3" cellpadding="0" cellspacing="0">
+  <tr>
+    <td width="35%">
+		<label>考试时间：</label>
+		<input type="text" id="birthday" name="birthday" value="" />		
+</td>
+    <td width="36%"><form id="form1" name="form1" method="post" action="">
+      <label for="subject">学科：</label>
+      <select name="subject" id="subject">
+        <option value="1">语文</option>
+        <option value="2">数学</option>
+        <option value="3">英语</option>
+      </select>
+    </form></td>
+    <td width="29%"><form id="form2" name="form2" method="post" action="">
+      <label for="sore">分数：</label>
+      <input type="text" name="sore" id="sore" />
+    </form></td>
+  </tr>
+</table>
+
+    </div>
+    <div id="add2">
+        <form id="form3" name="form3" method="post" action="">
+      <input name="add" type="submit" class="button" id="add3" value="提交" />
+    </form>
+    </div>
+  </div>
+</div>
+</body>
+</html>
+<script type="text/javascript">
+function cg(){
+ var obj=document.getElementById("Tbl").getElementsByTagName("tr");
+ for(i=0;i<obj.length;i++){
+  eval("obj[i].onmouseover=function(){this.style.background='#B0DBE3'}") 
+  eval("obj[i].onmouseout=function(){this.style.background=''}") 
+ }
+}
+cg()
+</script>

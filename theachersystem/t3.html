@@ -1,0 +1,512 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>优乐嘉教育-教师后台-课表更新</title>
+<style type="text/css">
+body {
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+}
+#toptitle {
+	height: 54px;
+	width: 952px;
+	margin-top: 10px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+}
+#a {
+	height: 117px;
+	width: 952px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+	background-color: #3467A9;
+	color: #000;
+}
+#pic1 {
+	height: 107px;
+	width: 109px;
+	margin: 5px;
+	float: left;
+}
+#b {
+	height: 1235px;
+	width: 942px;
+	margin-right: auto;
+	margin-bottom: auto;
+	margin-left: auto;
+	float: inherit;
+	background-color: #3467A9;
+	padding-top: 10px;
+	padding-right: 5px;
+	padding-left: 5px;
+	font-family: "微软雅黑";
+	color: #FFF;
+}
+#c {
+	height: 1190px;
+	width: 900px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 20px;
+	background-color: #FFF;
+	color: #000;
+}
+.text1 {
+	font-family: "微软雅黑";
+	font-size: 15px;
+}
+#d {
+	height: 40px;
+	width: 573px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 30px;
+}
+.button {
+	font-family: "微软雅黑";
+	font-size: 15px;
+	color: #FFF;
+	background-color: #417AC1;
+	height: 30px;
+	width: 80px;
+	font-weight: bold;
+	border: thin solid #3974C4;
+}
+#students {
+	height: 100px;
+	width: 880px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: auto;
+	margin-left: auto;
+	font-size: 13px;
+}
+table {
+	text-align: center;
+}
+#search {
+	height: 45px;
+	width: 243px;
+	margin-right: auto;
+	margin-left: auto;
+	background-image: url(images/search.jpg);
+}
+#insearch {
+	height: 31px;
+	width: 194px;
+	margin-top: 8px;
+	margin-left: -53px;
+	padding: 0px;
+}
+.text2 {
+	font-family: "微软雅黑";
+	font-size: 16px;
+	color: #000;
+}
+#select {
+	height: 600px;
+	width: 800px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+}
+.currentDay {	float: right;
+}
+.month {	float: left;
+	position: absolute;
+}
+.nextMonth {	float: right;
+}
+.selectBtn {	font-weight: 900;
+	font-size: 15px;
+	color: #fff;
+	cursor: pointer;
+	text-decoration: none;
+	padding: 7px 10px 6px 10px;
+}
+.selectMonth {	float: left;
+	margin-left: 120px;
+	position: absolute;
+}
+.selectYear {	float: left;
+	margin-left: 50px;
+	position: absolute;
+}
+.week {	width: 100%;
+	height: 30px;
+	margin-top: 10px;
+}
+#CalendarMain {	width: 960px;
+	height: 600px;
+	border: 1px solid #ccc;
+	margin: 0 auto;
+	margin-top: 5px;
+	background-color: #FFF;
+}
+#Container {	overflow: hidden;
+	float: left;
+}
+#center {	width: 100%;
+	overflow: hidden;
+}
+#centerCalendarMain {	float: left;
+}
+#centerMain {	width: 300%;
+	margin-left: -100%;
+}
+#context {	background-color: #fff;
+	width: 100%;
+}
+#footNow {	float: right;
+	color: #009ad6;
+	font-family: "微软雅黑";
+	margin-top: 6px;
+	margin-right: 10px;
+	margin-bottom: 0;
+	margin-left: auto;
+}
+#foots {	width: 100%;
+	height: 35px;
+	background-color: #fff;
+	margin-top: 0px;
+	border: 1px solid #ccc;
+	margin-left: -1px;
+}
+#selectMonthDiv {	float: left;
+	background-color: #fff;
+}
+#selectYearDiv {	float: left;
+	background-color: #fff;
+}
+#sure {
+	height: 30px;
+	width: 80px;
+	margin-top: 50px;
+	margin-right: auto;
+	margin-bottom: auto;
+	margin-left: auto;
+}
+#course {
+	height: 552px;
+	width: 880px;
+	margin-top: 10px;
+	margin-right: auto;
+	margin-bottom: auto;
+	margin-left: auto;
+}
+#a0 {
+	float: left;
+	height: 40px;
+	width: 109px;
+	margin-top: auto;
+	margin-right: 1px;
+	margin-bottom: 1px;
+	margin-left: auto;
+	text-align: center;
+	padding-top: 20px;
+	background-color: #3467A9;
+	color: #FFF;
+	font-weight: bold;
+	font-family: "微软雅黑";
+}
+#mornig {
+	height: 94px;
+	width: 109px;
+	margin-top: 1px;
+	margin-right: 1px;
+	margin-bottom: auto;
+	margin-left: auto;
+	float: left;
+	text-align: center;
+	padding-top: 65px;
+	background-color: #3467A9;
+	color: #FFF;
+	font-weight: bold;
+	font-family: "微软雅黑";
+}
+#morn {
+	height: 160px;
+	width: 770px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: auto;
+	margin-left: auto;
+	float: left;
+}
+.morningclass {
+	float: left;
+	height: 110px;
+	width: 109px;
+	margin-top: 1px;
+	margin-right: 1px;
+	margin-bottom: auto;
+	margin-left: auto;
+	text-align: center;
+	padding-top: 50px;
+	background-color: #DDEAF4;
+	font-family: "微软雅黑";
+}
+#afternoon {
+	height: 95px;
+	width: 109px;
+	margin-top: 3px;
+	margin-right: 1px;
+	margin-bottom: auto;
+	margin-left: auto;
+	float: left;
+	padding-top: 65px;
+	text-align: center;
+	background-color: #3467A9;
+	color: #FFF;
+	font-weight: bold;
+	font-family: "微软雅黑";
+}
+#after {
+	height: 160px;
+	width: 770px;
+	margin-top: 3px;
+	margin-right: auto;
+	margin-bottom: auto;
+	margin-left: auto;
+	float: left;
+}
+.afternoonclass {
+	float: left;
+	height: 110px;
+	width: 109px;
+	margin-top: 1px;
+	margin-right: 1px;
+	margin-bottom: auto;
+	margin-left: auto;
+	text-align: center;
+	padding-top: 50px;
+	background-color: #DDEAF4;
+	font-family: "微软雅黑";
+}
+#evening {
+	height: 95px;
+	width: 109px;
+	margin-top: 3px;
+	margin-right: 1px;
+	margin-bottom: auto;
+	margin-left: auto;
+	float: left;
+	padding-top: 65px;
+	text-align: center;
+	background-color: #3467A9;
+	color: #FFF;
+	font-weight: bold;
+	font-family: "微软雅黑";
+}
+#even {
+	height: 161px;
+	width: 770px;
+	margin-top: 2px;
+	margin-right: auto;
+	margin-bottom: auto;
+	margin-left: auto;
+	float: left;
+}
+.eveningclass {
+	float: left;
+	height: 110px;
+	width: 109px;
+	margin-top: 1px;
+	margin-right: 1px;
+	margin-bottom: auto;
+	margin-left: auto;
+	text-align: center;
+	padding-top: 50px;
+	background-color: #DDEAF4;
+	font-family: "微软雅黑";
+}
+</style>
+</head>
+<link rel="shortcut icon" href="../img/zatu/logo.ico" />
+<link rel="stylesheet" href="css/style.css" type="text/css" />
+<body>
+<div id="toptitle"><a href="tmain.html"><img src="images/title.jpg" width="952" height="54" /></a></div>
+<div id="a">
+  <div id="pic1"><a href="t1.html"><img src="images/01.jpg" width="109" height="107" /></a></div>
+  <div id="pic1"><a href="t2.html"><img src="images/02.jpg" width="109" height="107" /></a></div>
+  <div id="pic1"><img src="images/3.jpg" width="109" height="107" /></div>
+  <div id="pic1"><a href="t4.html"><img src="images/04.jpg" width="109" height="107" /></a></div>
+  <div id="pic1"><a href="t5.html"><img src="images/05.jpg" width="109" height="107" /></a></div>
+  <div id="pic1"><a href="t6.html"><img src="images/06.jpg" width="109" height="107" /></a></div>
+  <div id="pic1"><a href="t7.html"><img src="images/07.jpg" width="109" height="107" /></a></div>
+  <div id="pic1"><a href="t8.html"><img src="images/08.jpg" width="109" height="107" /></a></div>
+</div>
+<div id="b">
+    <div id="c">
+    </br>
+    <center>
+    <div class="zySearch" id="zySearch"></div>
+      <ul class="select">
+		<li class="select-list">
+			<dl id="select1">
+				<dt>选择校区：</dt>
+				<dd class="select-all selected"><a href="#">全部</a></dd>
+				<dd><a href="#">绿汀雅镜校区</a></dd>
+				<dd><a href="#">保利华都校区</a></dd>
+			</dl>
+		</li>
+		<li class="select-list">
+			<dl id="select2">
+				<dt>选择课程：</dt>
+				<dd class="select-all selected"><a href="#">全部</a></dd>
+				<dd><a href="#">幼小衔接班</a></dd>
+				<dd><a href="#">教育式托管</a></dd>
+				<dd><a href="#">精品培优班</a></dd>
+				<dd><a href="#">全素质一对一</a></dd>
+			</dl>
+		</li>
+		<li class="select-list">
+			<dl id="select3">
+			  <dt>任课老师：</dt>
+				<dd class="select-all selected"><a href="#">全部</a></dd>
+				<dd><a href="#">陈彩霞</a></dd>
+				<dd><a href="#">刘小娟</a></dd>
+				<dd><a href="#">雷晶</a></dd>
+				<dd><a href="#">石玉</a></dd>
+				<dd><a href="#">黄书文</a></dd>    
+			</dl>
+		</li>
+        <li class="select-list">
+			<dl id="select4">
+				<dt>所在学校：</dt>
+				<dd class="select-all selected"><a href="#">全部</a></dd>
+				<dd><a href="#">卓刀泉小学</a></dd>
+				<dd><a href="#">洪山外校</a></dd>
+			</dl>
+		</li>
+        <li class="select-list">
+			<dl id="select5">
+				<dt>所在年级：</dt>
+				<dd class="select-all selected"><a href="#">全部</a></dd>
+				<dd><a href="#">一年级</a></dd>
+				<dd><a href="#">二年级</a></dd>
+				<dd><a href="#">三年级</a></dd>
+				<dd><a href="#">四年级</a></dd>
+				<dd><a href="#">五年级</a></dd>
+				<dd><a href="#">六年级</a></dd>
+                <dd><a href="#">初一</a></dd>
+                <dd><a href="#">初二</a></dd>
+                <dd><a href="#">初三</a></dd>
+                <dd><a href="#">高一</a></dd>
+                <dd><a href="#">高二</a></dd>
+                <dd><a href="#">高三</a></dd>
+		  </dl>
+		</li>
+		<li class="select-result">
+			<dl>
+				<dt>已选条件：</dt>
+				<dd class="select-no">暂时没有选择筛选条件</dd>
+			</dl>
+		</li>
+	</ul>
+
+
+
+<script type="text/javascript" src="js/jquery-1.7.2.js"></script>
+<script type="text/javascript" src="js/zySearch.js"></script>
+<script type="text/javascript">
+$("#zySearch").zySearch({
+	"width":"355",
+	"height":"33",
+	"parentClass":"pageTitle",
+	"callback":function(keyword){
+		console.info("搜索的关键字");
+		console.info(keyword);
+	}
+});
+</script>
+
+<script type="text/javascript" src="js/jquery-1.7.2.min.js"></script>
+<script type="text/javascript" src="js/script.js"></script>
+
+	</center>
+    </br>
+    <div id="students">已选学生：
+      <form id="form1" name="form1" method="post" action="">
+          <label>
+            <input type="checkbox" name="students" value="1" id="students_0" />
+            "学生姓名1"</label>
+          <label>
+            <input type="checkbox" name="students" value="2" id="students_1" />
+            "学生姓名2"</label>
+          <label>
+            <input type="checkbox" name="students" value="3" id="students_2" />
+            "学生姓名3"</label>
+          <label>
+            <input type="checkbox" name="students" value="4" id="students_3" />
+            "学生姓名4"</label>
+      </form>
+    </div>
+    <div id="course">
+  <div id="a0">时间</div>
+  <div id="a0">星期一
+   </div>
+  <div id="a0">星期二
+   </div>
+  <div id="a0">星期三</div>
+  <div id="a0">星期四</div>
+   <div id="a0">星期五</div>
+   <div id="a0">星期六</div>
+   <div id="a0">星期天</div>
+   <div id="mornig">上午</div>
+   <div id="morn">
+     <div class="morningclass"></div>
+     <div class="morningclass"></div>
+     <div class="morningclass"></div>
+     <div class="morningclass"></div>
+     <div class="morningclass"></div>
+     <div class="morningclass"></div>
+     <div class="morningclass"></div>
+   </div>
+   <div id="afternoon">下午</div>
+   <div id="after">
+     <div class="afternoonclass"></div>
+     <div class="afternoonclass"></div>
+     <div class="afternoonclass"></div>
+     <div class="afternoonclass"></div>
+     <div class="afternoonclass"></div>
+     <div class="afternoonclass"></div>
+     <div class="afternoonclass"></div>
+
+  </div>
+  <div id="evening">晚上</div>
+  <div id="even">
+    <div class="eveningclass"></div>
+    <div class="eveningclass"></div>
+    <div class="eveningclass"></div>
+    <div class="eveningclass"></div>
+    <div class="eveningclass"></div>
+    <div class="eveningclass"></div>
+    <div class="eveningclass"></div>
+  </div>
+   
+</div>
+    <div id="sure"><input name="sure" type="button" class="button" value="提交" /></div>
+
+  </div>
+</div>
+  </div>
+</body>
+</html>
+<script type="text/javascript">
+function cg(){
+ var obj=document.getElementById("Tbl").getElementsByTagName("tr");
+ for(i=0;i<obj.length;i++){
+  eval("obj[i].onmouseover=function(){this.style.background='#B0DBE3'}") 
+  eval("obj[i].onmouseout=function(){this.style.background=''}") 
+ }
+}
+cg()
+</script>

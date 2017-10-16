@@ -1,0 +1,85 @@
+/* CSS reset */
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, textarea, p, blockquote, th, td {
+	margin: 0;
+	padding: 0;
+}
+html, body {
+	margin: 0;
+	padding: 0;
+}
+
+fieldset, img {
+	border: 0;
+}
+address, caption, cite, code, dfn, th, var {
+	font-style: normal;
+	font-weight: normal;
+}
+ol, ul {
+	list-style: none;
+}
+caption, th {
+	text-align: start;
+}
+h1, h2, h3, h4, h5, h6 {
+	font-size: 100%;
+	font-weight: normal;
+}
+q:before, q:after {
+	content: '';
+}
+abbr, acronym {
+	border: 0;
+}
+section, header {
+	display: block;
+}#nail table {
+	color: #FFF;
+	font-weight: normal;
+	font-style: normal;
+}
+#parents #figure table tr {
+	font-size: 0.2px;
+}
+.text4 {
+	font-family: "宋体";
+	color: #333;
+	font-weight: normal;
+	font-size: 12px;
+}
+a.a1:link { color: #000000; text-decoration: none; font-weight:normal} 
+a.a1:visited { color: #666666; text-decoration: none; font-weight:normal} 
+a.a1:hover { color: #000000; text-decoration: underline; font-weight:normal} 
+a.a1:active { color: #000000; text-decoration: underline; font-weight:normal}
+.button {
+	font-family: "宋体";
+	color: #FFF;
+	background-color: #2480C3;
+	height: 30px;
+	width: 60px;
+	border-top-width: 0px;
+	border-right-width: 0px;
+	border-bottom-width: 0px;
+	border-left-width: 0px;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+	text-align: center;
+}
+.edging {
+	border: thin solid #CCC;
+	font-size: 16px;
+	color: #000;
+	font-weight: normal;
+}
+.taechername {
+	font-family: "微软雅黑";
+	font-size: 30px;
+	color: #2480C2;
+}
+a.download:link { color: #000000; text-decoration: none; font-weight:normal} 
+a.download:visited { color: #666666; text-decoration:underline ; font-weight:normal} 
+a.download:hover { color: #000000; text-decoration: underline; font-weight:normal} 
+a.download:active { color: #000000; text-decoration: underline; font-weight:normal}
+
